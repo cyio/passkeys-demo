@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Passkeys Extension Demo",
+    "version": "1.0",
+    "description": "Demo of Passkeys integration in Chrome extension",
+    "permissions": [
+      "webCredentials"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
